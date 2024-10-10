@@ -1,0 +1,220 @@
+.hero {
+  background-image: url(../images/mark-cruz-VW2oU66mwbc-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+
+  .hero-content {
+    h4 {
+      /* color: var(--bg-secondary); */
+      font-size: 2rem;
+    }
+    /* h1{
+            font-size: 3.5rem;
+        } */
+  }
+
+  button {
+    background-color: rgb(6, 6, 45);
+    border: 1px solid rgb(6, 6, 45);
+    outline: none;
+    color: white;
+
+    &:hover {
+      background-color: transparent;
+      /* color: var(--text-black); */
+      border: 1px solid white;
+    }
+  }
+}
+
+.achievement {
+  background-color: rgb(6, 6, 45);
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: white;
+  padding: 20px 0px;
+
+  .card {
+    background-color: transparent;
+  }
+}
+
+.about{
+
+  .about-container{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.267);
+
+
+    .about-bottom{
+      background-color: rgb(6, 6, 45);
+      color: white;
+      border-radius: 8px;
+    }
+  }
+
+  .cards{
+    .card{
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+    }
+  }
+
+
+  .testimonials{
+    background-color: rgb(6, 6, 45);
+    color: white;
+    border-radius: 20px;
+  }
+}
+
+.contact {
+  background-color: rgb(6, 6, 45);
+  color: white;
+
+  button {
+    background-color: white;
+    border: 1px solid white;
+    outline: none;
+    color: black;
+    border-radius: 8px;
+    padding: 5px 10px;
+
+    &:hover {
+      background-color: transparent;
+      color: white;
+    }
+  }
+}
+
+
+
+footer {
+    background-color:rgb(6, 6, 45);
+    color: white;
+  
+    .brand {
+      color: rgb(211, 12, 75);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5 {
+    font-size: 1.3rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  /* Tablet Media Query */
+  @media (max-width: 1199px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+    h4 {
+      font-size: 1.7rem;
+    }
+    h5 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Mobile Media Query */
+  @media (max-width: 767px) {
+    /* .navbar-brand img {
+      height: 100%; /* Smaller height for mobile screens */
+    
+    /* .navbar {
+      height: 90px;
+      padding: 0px;
+    } */
+  
+    .hero {
+      height: 50vh;
+    }
+  
+    .about,
+    .contact,
+    .questions {
+      button {
+        font-size: 1rem;
+      }
+    }
+  
+    .about-one{
+      button{
+        font-size: 0.7rem;
+      }
+    }
+  
+    .about,
+    .questions {
+      img {
+        height: 180px;
+      }
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+    }
+    h4 {
+      font-size: 0.9rem;
+    }
+    h5 {
+      font-size: 0.75rem;
+    }
+    p {
+      font-size: 0.7rem;
+    }
+  
+    .hero {
+      h1 {
+        font-size: 1.2rem;
+      }
+      h3 {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  
