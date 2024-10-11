@@ -5,6 +5,10 @@
   background-size: cover;
   color: white;
 
+  .card{
+    background-color: transparent;
+  }
+
   .hero-content {
     h4 {
       /* color: var(--bg-secondary); */
@@ -178,9 +182,6 @@ footer {
       padding: 0px;
     } */
   
-    .hero {
-      height: 50vh;
-    }
   
     .about,
     .contact,
