@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 100vh;
 
   .hero-content {
     h4 {
@@ -21,6 +20,8 @@
     border: 1px solid rgb(6, 6, 45);
     outline: none;
     color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
 
     &:hover {
       background-color: transparent;
