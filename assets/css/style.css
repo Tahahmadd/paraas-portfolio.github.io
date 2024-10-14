@@ -75,6 +75,8 @@
 
   .cards{
     .card{
+      background-color: rgb(6, 6, 45);
+      color: white;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
     }
   }
@@ -102,6 +104,46 @@
     &:hover {
       background-color: transparent;
       color: white;
+    }
+  }
+}
+
+
+
+.hiring{
+
+  background-color: rgba(0, 0, 0, 0.087);
+
+  a{
+    text-decoration: none;
+  }
+}
+
+
+.questions{
+  .accordion{
+
+    .accordion-item{
+      border-radius: 0px;
+    }
+
+    .accordion-header,
+    .accordion-body{
+      border-left: 4px solid black;
+      border-right: 4px solid black;
+    }
+
+    .accordion-button{
+      border-radius: 0px;
+      &:focus{
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    .accordion-button,
+    .accordion-body{
+     background-color: rgba(0, 0, 0, 0.087);
     }
   }
 }
